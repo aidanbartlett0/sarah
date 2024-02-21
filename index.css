@@ -1,0 +1,30 @@
+#HeaderBar {
+    z-index: 1;
+    padding: 5px;
+    width: 100%;
+    padding-left: 2%;
+    margin-bottom: 30px;
+    background-color: pink;
+    color: grey; 
+}
+
+#jdfnjsdnf{
+    text-decoration: line-through;
+}
+
+#formatMiddleImg{
+    margin-top: 50%;
+}
+
+
+#imagesS{
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 30px;
+}
+#imagesM{
+    
+}
+#imagesL{
+    
+}
