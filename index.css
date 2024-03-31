@@ -9,7 +9,7 @@
 }
 
 #jdfnjsdnf{
-    text-decoration: line-through;
+    padding-left: -10px;
 }
 
 #formatMiddleImg{
@@ -23,7 +23,8 @@
     width: 30px;
 }
 #imagesM{
-    
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #imagesL{
     
