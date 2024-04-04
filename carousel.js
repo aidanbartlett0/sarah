@@ -30,26 +30,26 @@ const slide2 =
 `<div class="container text-center pt-2" id="divToReplace">
 <div class="row align-items-start">
   <div class="col">
-    <img src="images/pasta.jpg" class="img-fluid">
+    <img src="images/bach.jpg" class="img-fluid">
   </div>
   <div class="col">
-    <img src="images/pasta.jpg" class="img-fluid">
+    <img src="images/b99.jpg" class="img-fluid">
   </div>
   <div class="col">
-    <img src="images/pasta.jpg" class="img-fluid">
+    <img src="images/office.jpg" class="img-fluid">
   </div>
   <div class="col">
-    <img src="images/pasta.jpg" class="img-fluid">
+    <img src="images/shutter.jpg" class="img-fluid">
   </div>
   <div class="col">
-    <img src="images/pasta.jpg" class="img-fluid">
+    <img src="images/thth.jpg" class="img-fluid">
   </div>
   <div class="col">
-    <img src="images/pasta.jpg" class="img-fluid">
+    <img src="images/loveblind.jpg" class="img-fluid">
   </div>
 </div>
 <h5 class="mt-3">
-  I really like watching our TV and movies with you it's so fun to make fun of all the terrible people out there and watch the good stuff like the office and silence of the lambs
+I really like watching our TV and movies with you it's so fun to make fun of all the terrible people out there and watch the good stuff like the office and silence of the lambs. I still think its a terrible shame you sleep through Inception
 </h5>
 </div>`;
 
