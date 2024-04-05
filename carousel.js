@@ -1,5 +1,3 @@
-// const [currentSlide, setCurrentSlide] = useState(0);
-
 const slide1 = 
 `<div class="container text-center pt-2" id="divToReplace">
 <div class="row align-items-start">
@@ -49,7 +47,7 @@ const slide2 =
   </div>
 </div>
 <h5 class="mt-3">
-I really like watching our TV and movies with you it's so fun to make fun of all the terrible people out there and watch the good stuff like the office and silence of the lambs. I still think its a terrible shame you sleep through Inception
+I really like watching our TV and movies together it's so fun to make fun of all the terrible people out there and watch the good stuff like the office and silence of the lambs. I still think its a terrible shame you sleep through Inception
 </h5>
 </div>`;
 
@@ -69,7 +67,7 @@ const slide3 =
     <img src="images/IMG_2994.jpg" class="img-fluid">
   </div>
   <div class="col">
-    <img src="images/IMG_2288.jpg" class="img-fluid">
+    <img src="images/IMG_2051.jpg" class="img-fluid">
   </div>
   <div class="col">
     <img src="images/IMG_2716.jpg" class="img-fluid">
@@ -80,14 +78,41 @@ const slide3 =
 </h5>
 </div>`;
 
-const carousels = [slide1, slide2, slide3];
-let currentSlide = 0;
+const slide4 = 
+`<div class="container text-center pt-2" id="divToReplace">
+<div class="row align-items-start">
+  <div class="col">
+    <img src="images/IMG_3050.jpg" class="img-fluid">
+  </div>
+  <div class="col">
+    <img src="images/IMG_3206.jpg" class="img-fluid">
+  </div>
+  <div class="col">
+    <img src="images/beer.jpg" class="img-fluid">
+  </div>
+  <div class="col">
+    <img src="images/IMG_3218.jpg" class="img-fluid">
+  </div>
+  <div class="col">
+    <img src="images/jessie.jpg" class="img-fluid">
+  </div>
+  <div class="col">
+    <img src="images/IMG_1812.jpg" class="img-fluid">
+  </div>
+</div>
+<h5 class="mt-5">
+  I like hitting the town with you and doing whatever we please! You are my bestfriend let's keep hangin
+</h5>
+</div>`;
+
+const carousels = [slide1, slide2, slide3, slide4];
+let currentSlide = 1;
 document.getElementById("nextImages").addEventListener("click", function() {
     var newContent = carousels[currentSlide];
   
     // Replace content of div with id "divToReplace" with new content
     document.getElementById("divToReplace").innerHTML = newContent;
-    if(currentSlide == 2){
+    if(currentSlide == 3){
         currentSlide = 0;
     }
     else{
