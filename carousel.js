@@ -76,7 +76,8 @@ const slide3 =
 <h5 class="mt-3">
   These are just some pictures I like. I take such lovely flicks of you all the time you gotta admit. 
 </h5>
-</div>`;
+</div>
+`;
 
 const slide4 = 
 `<div class="container text-center pt-2" id="divToReplace">
@@ -100,18 +101,29 @@ const slide4 =
     <img src="images/IMG_1812.jpg" class="img-fluid">
   </div>
 </div>
-<h5 class="mt-5">
+<h5 class="mt-3">
   I like hitting the town with you and doing whatever we please! You are my bestfriend let's keep hangin
 </h5>
+</div>
+`;
+
+const b1 = `<div class="mx-auto pt-3" id="nextImages">
+<button class="btn btn-primary col-6 " type="button">HEY! Click me! I'm a fun button. Press me. Please, Please, Please, pretty please</button>              
 </div>`;
+const b2 = `<div class="mx-auto pt-3" id="nextImages"> <button id="nextImages" class="btn btn-success col-3 " type="button">YAYYYYYYYYYYYYYY!!!! Do it again</button> </div>`;
+const b3 = `<div class="mx-auto pt-3" id="nextImages"> <button id="nextImages" class="btn btn-danger col-6" type="button">Land of the free home of the brave raahhhhhhhhhh click me again rahhhhhhhhhh</button></div>`;
+const b4 = `<div class="mx-auto pt-3" id="nextImages"> <button id="nextImages" class="btn btn-warning col-4" type="button">clicky clicky clicky press my buttons mmmm</button></div>`;
 
 const carousels = [slide1, slide2, slide3, slide4];
+const buttons = [b1, b2, b3, b4];
+
 let currentSlide = 1;
 document.getElementById("nextImages").addEventListener("click", function() {
     var newContent = carousels[currentSlide];
-  
+    var newButton = buttons[currentSlide];
     // Replace content of div with id "divToReplace" with new content
     document.getElementById("divToReplace").innerHTML = newContent;
+    document.getElementById("nextImages").innerHTML = newButton;
     if(currentSlide == 3){
         currentSlide = 0;
     }
