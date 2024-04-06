@@ -116,12 +116,6 @@ const slide5 =
     <img src="images/IMG_1980.jpg" class="img-fluid">
   </div>
   <div class="col">
-    <img src="images/IMG_3135.jpg" class="img-fluid">
-  </div>
-  <div class="col">
-    <img src="images/flowersss.jpeg.jpg" class="img-fluid">
-  </div>
-  <div class="col">
     <img src="images/72964993286__27F83A03-A557-4ADD-A544-18C8DDBD0F95.jpeg" class="img-fluid">
   </div>
   <div class="col">
