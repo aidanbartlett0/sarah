@@ -70,7 +70,7 @@ const slide3 =
     <img src="images/IMG_2051.jpg" class="img-fluid">
   </div>
   <div class="col">
-    <img src="images/IMG_2716.jpg" class="img-fluid">
+    <img src="images/IMG_2973.jpg" class="img-fluid">
   </div>
 </div>
 <h5 class="mt-3">
@@ -106,6 +106,33 @@ const slide4 =
 </h5>
 </div>
 `;
+const slide5 = 
+`<div class="container text-center pt-2" id="divToReplace">
+<div class="row align-items-start">
+  <div class="col">
+    <img src="images/IMG_6912.jpg" class="img-fluid">
+  </div>
+  <div class="col">
+    <img src="images/IMG_1980.jpg" class="img-fluid">
+  </div>
+  <div class="col">
+    <img src="images/img_3377.jpg" class="img-fluid">
+  </div>
+  <div class="col">
+    <img src="images/img_3135.jpg" class="img-fluid">
+  </div>
+  <div class="col">
+    <img src="images/72964993286__27F83A03-A557-4ADD-A544-18C8DDBD0F95.jpeg" class="img-fluid">
+  </div>
+  <div class="col">
+    <img src="images/IMG_2716.jpg" class="img-fluid">
+  </div>
+</div>
+<h5 class="mt-3">
+I'm just going to keep getting better at making bouquets since I think it is my hidden talent. And you are gonna have to be getting lots of flowers so I can practice I guess. I really like getting you flowers and I love how happy you look when I suprise you with some :)
+</h5>
+</div>
+`;
 
 const b1 = `<div class="mx-auto pt-3" id="nextImages">
 <button class="btn btn-primary col-6 " type="button">HEY! Click me! I'm a fun button. Press me. Please, Please, Please, pretty please</button>              
@@ -113,9 +140,11 @@ const b1 = `<div class="mx-auto pt-3" id="nextImages">
 const b2 = `<div class="mx-auto pt-3" id="nextImages"> <button id="nextImages" class="btn btn-success col-3 " type="button">YAYYYYYYYYYYYYYY!!!! Do it again</button> </div>`;
 const b3 = `<div class="mx-auto pt-3" id="nextImages"> <button id="nextImages" class="btn btn-danger col-6" type="button">Land of the free home of the brave raahhhhhhhhhh click me again rahhhhhhhhhh</button></div>`;
 const b4 = `<div class="mx-auto pt-3" id="nextImages"> <button id="nextImages" class="btn btn-warning col-4" type="button">clicky clicky clicky press my buttons mmmm</button></div>`;
+const b5 = `<div class="mx-auto pt-3" id="nextImages"> <button id="nextImages" class="btn btn-info col-3" type="button">Woop woop! Keep on clicking!!</button></div>`;
 
-const carousels = [slide1, slide2, slide3, slide4];
-const buttons = [b1, b2, b3, b4];
+
+const carousels = [slide1, slide2, slide3, slide4, slide5];
+const buttons = [b1, b2, b3, b4, b5];
 
 let currentSlide = 1;
 document.getElementById("nextImages").addEventListener("click", function() {
@@ -124,7 +153,7 @@ document.getElementById("nextImages").addEventListener("click", function() {
     // Replace content of div with id "divToReplace" with new content
     document.getElementById("divToReplace").innerHTML = newContent;
     document.getElementById("nextImages").innerHTML = newButton;
-    if(currentSlide == 3){
+    if(currentSlide == 4){
         currentSlide = 0;
     }
     else{
