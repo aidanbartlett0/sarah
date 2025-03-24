@@ -8,16 +8,12 @@
     color: grey; 
 }
 
-#navYearTwo {
-    position: absolute;
-    right: 20px;
-    top: 3%;
-    color: grey;
-    text-decoration: none;
-    font-size: 1.2em;
+body {
+    background-color: blue;
 }
 
-@media screen and (max-width: 1000px){
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
     body {
         background-color: green;
     }
@@ -34,23 +30,4 @@
 
     
     
-}
-
-#jdfnjsdnf{
-    padding-left: -10px;
-}
-
-#formatMiddleImg{
-    margin-top: 50%;
-}
-
-#imagesS{
-    padding-left: 30%;
-    padding-right: 30%;
-    width: 30px;
-}
-
-#imagesM{
-    padding-left: 10%;
-    padding-right: 10%;
 }
