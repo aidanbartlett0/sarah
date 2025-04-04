@@ -8,6 +8,41 @@
     color: grey; 
 }
 
+.centered{
+    text-align: center;
+    /* width: 80% */
+    font-size: 15px;
+
+}
+
+.image-container {
+    text-align: center;
+    width: 85%;
+    max-width: 300px;
+    height: 400px;
+    max-height: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 2px solid lightgreen;
+    border-radius: 8px;
+}
+
+.image-container img {
+    /* width: 100%; */
+    width: auto;
+    height: auto;
+    max-height: 90%;
+
+    border-radius: 5px;
+}
+
+.image-description {
+    color: grey;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
 @media (min-width: 498px){
     #HeaderBar {
         background-color: lightyellow;
