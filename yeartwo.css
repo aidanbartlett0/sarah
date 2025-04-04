@@ -4,30 +4,21 @@
     width: 100%;
     padding-left: 2%;
     margin-bottom: 30px;
-    background-color: pink;
+    background-color: white;
     color: grey; 
 }
 
-body {
-    background-color: blue;
+@media (min-width: 498px){
+    #HeaderBar {
+        background-color: lightyellow;
+        
+    }
 }
 
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px){
-    body {
-        background-color: green;
-    }
+@media (max-width: 497px){
     #HeaderBar {
-        z-index: 1;
-        padding: 5px;
-        width: 100%;
-        font-size: 2.5em;
-        padding-left: 2%;
-        margin-bottom: 30px;
         background-color: pink;
-        color: grey; 
-    }
 
-    
-    
+    }
 }
