@@ -98,7 +98,41 @@ const mem9 = `
     <p>Papaya finally started to outgrow his festive holiday sweater when he started getting too big and fat :( Then it became a straightjacket and would paralyze him so much haha. I think its funny how we have to put his timeout sweater on him when he starts acting evil. Such a little rascal</p>
   </div>`
 
-const memories = [mem1, mem2, mem3, mem4, mem5, mem6, mem7, mem8, mem9];
+const mem10 = `<div class="image-card2">
+      <div class="image-wrapper2">
+          <img src="images2/val1.jpeg" alt="Image 1">
+          <img src="images2/val2.jpeg" alt="Image 2">
+      </div>
+      <p class="image-description">I hope you know how much I care about you and how I always try to go out of my way to make you happy and feel valued. </p>
+    </div>
+    <div class="description-box">
+      <p>I remember...</p>
+      <p>When it was valentines day and we both asked each other with cookies and then then we had so many cookies and were so fat all week hahaha. It was pretty cute walking into the apartment with you with my flowers and cookies, then you brought be over and gave me my cookies that was so silly we are so alike and loving, that is a fun memory. And I loved my baloons very much, and how over the next few weeks letters slowly disappeared off of your wall as I took them home. Thank you for a great Valentine's day, you're the best.</p>
+    </div>`
+
+const mem11 = `
+  <div class="image-container">
+    <img src="images2/dkecat.jpeg" alt="Description of image">
+    <p class="image-description">I like how you treat Paya and want to make sure he's safe. You can be little crazy about it, but I appreciate your vigilance.</p>
+  </div>
+  <div class="description-box">
+    <p>I remember...</p>
+    <p>When stupid Nora had to do room inspections and Paya was still illegal, we had to carry him and all of his stuff over to dke. He got to hang with me for the day, I skipped my class, and we napped together. It was pretty cute and he loved to explore my room. He was very confuseed about the bathroom floor since it was warm, so he would lay on the chistmas bathmat we bought together and put his head on the floor. Eventually he warmed up to it and just lounged all the way on the warm tile. So ute! </p>
+  </div>`
+
+const mem12 = `<div class="image-card2">
+      <div class="image-wrapper2">
+          <img src="images2/lights1.jpeg" alt="Image 1">
+          <img src="images2/lights2.jpeg" alt="Image 2">
+      </div>
+      <p class="image-description">I really like how we have so much support and love from each other's families.</p>
+    </div>
+    <div class="description-box">
+      <p>I remember...</p>
+      <p>When we went to the zoo lights with my family during christmas break. That was super fun and oh so cute. I liked walking around and looking at the lights with you and making fun of the silly looking animals. I even liked holding the umbrella for you. Isn't it so fun that you are just like a part of the gang now? You're such a veteran girlfriend and its a good look on you and makes me feel really secure. I really like being with my family and with you, it just feels so natural to have you there with me, and my family really likes you. I really appreciate how you want to hang out with them, it is a really nice quality you have and I love you lots and so do they. </p>
+    </div>`
+
+const memories = [mem1, mem2, mem3, mem4, mem5, mem6, mem7, mem8, mem9, mem10, mem11, mem12];
 
 const initialButton = `<a class="btn btn-light" id ="navYearTwo" role="button">I love you!</a>`
 const buttons = [
