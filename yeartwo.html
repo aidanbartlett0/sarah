@@ -29,38 +29,56 @@
           <h2>Here are some memories!</h2>
           <p>Remember that I am <strong>always</strong> by your side. I'm just in your pocket (or on your keys)!</p>
         </div>
+
  
   <div id="memory">
     <!-- <div class="image-card2">
       <div class="image-wrapper2">
-          <img src="images2/lights1.jpeg" alt="Image 1">
-          <img src="images2/lights2.jpeg" alt="Image 2">
+          <img src="images2/park.jpg" alt="Image 1">
+          <img src="images2/park2.jpg" alt="Image 2">
       </div>
-      <p class="image-description">I really like how we have so much support and love from each other's families.</p>
+      <p class="image-description">I like going and doing nice couple thing with you like walks on the beach</p>
     </div>
     <div class="description-box">
       <p>I remember...</p>
-      <p>When we went to the zoo lights with my family during christmas break. That was super fun and oh so cute. I liked walking around and looking at the lights with you and making fun of the silly looking animals. I even liked holding the umbrella for you. Isn't it so fun that you are just like a part of the gang now? You're such a veteran girlfriend and its a good look on you and makes me feel really secure. I really like being with my family and with you, it just feels so natural to have you there with me, and my family really likes you. I really appreciate how you want to hang out with them, it is a really nice quality you have and I love you lots and so do they. </p>
+      <p>When we went to my house for the first time and you got to meet my family and my grandparents (surprise)! Then we went to the beach to watch the sunset until we got scared of the raccoons and had to run away. And then I scared you and I felt bad, I don't like to scare you and I didn't again. I got to show you my beloved at-home fit (big honor) and you clowned on me (lame as hell (can't handle the toughness of my fit)). Twas pretty fun. Then my mom drove us up to school so she could hang out with us more as it was all very new and exciting to her (shes still always so excited to see you) </p>
     </div> -->
-  </div>
-
+  </div> 
 <!-- 
+
   <div id="memory">
 
   <div class="image-container">
-    <img src="images2/dkecat.jpeg" alt="Description of image">
-    <p class="image-description">I like how you treat Paya and want to make sure he's safe. You can be little crazy about it, but I appreciate your vigilance.</p>
+    <img src="images2/food.jpg" alt="Description of image">
+    <p class="image-description">I like going and doing nice couple thing with you like walks on the beach</p>
   </div>
   <div class="description-box">
     <p>I remember...</p>
-    <p>When stupid Nora had to do room inspections and Paya was still illegal, we had to carry him and all of his stuff over to dke. He got to hang with me for the day, I skipped my class, and we napped together. It was pretty cute and he loved to explore my room. He was very confuseed about the bathroom floor since it was warm, so he would lay on the chistmas bathmat we bought together and put his head on the floor. Eventually he warmed up to it and just lounged all the way on the warm tile. So ute! </p>
+    <p>When we just were together all the time once we started dating and it was just party party party. This time, we hung out after you hung out with your mom. She even bought me food and that was so nice of her and you! So sweet, you have always taken such good care of me and talked me up to all of your family and always made them have a good picture of me I really appreciate it</p>
   </div>
-</div>  -->
+</div> -->
 
 
-  <div>
-    <a class="btn btn-dark" id ="papayameow" role="button">papaya</a>
+  <div class="centered">
+    <p class="pt-5"></p>
+    <h3 pt-5>If you need a little help during the day! </h2>
+      <div class="image-container">
+          <button class="btn btn-success" onclick="playSound('sounds/best.m4a')">The best</button>
+          <button class="btn btn-info" onclick="playSound('sounds/love.m4a')">Love</button>
+          <button class="btn btn-primary" onclick="playSound('sounds/fret.m4a')">Don't fret!</button>
+          <button class="mt-2 btn btn-warning" onclick="playSound('sounds/meow.m4a')">Meow</button>
+          <button class="mt-2 btn btn-secondary" onclick="playSound('sounds/proud.m4a')">So proud</button>
+
+      </div>
   </div>
+
+  <script>
+      function playSound(src) {
+          const audio = new Audio(src);
+          audio.play();
+      }
+  </script>
+
 
     <script src="slideshow.js"></script>
 </body>

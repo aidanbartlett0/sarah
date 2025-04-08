@@ -1,11 +1,12 @@
-const meow = document.getElementById('papayameow')
+// const meow = document.getElementById('papayameow')
 
-meow.addEventListener("click", function () {
-    const audio = new Audio("sounds/freejazz.wav");
-    audio.play();
-// lets get different papaya tones and pictures and on click it gives a new pic and soundbyte. 
-// ranking based on enjoyment
-});
+// meow.addEventListener("click", function () {
+//     const audio = new Audio("sounds/best.m4a");
+//     audio.play();
+// });
+
+
+
 const mem1 = `<div class="image-container">
       <img src="images2/tiny.jpg" alt="Description of image">
       <p class="image-description">Thank you for helping make this relationship feel so healthy and valuable.</p>
@@ -113,7 +114,7 @@ const mem10 = `<div class="image-card2">
 const mem11 = `
   <div class="image-container">
     <img src="images2/dkecat.jpeg" alt="Description of image">
-    <p class="image-description">I like how you treat Paya and want to make sure he's safe. You can be little crazy about it, but I appreciate your vigilance.</p>
+    <p class="image-description">I like how you treat Paya and want to make sure he's safe at Nora away from the scary repair people. I appreciate your vigilance, it is very sweet.</p>
   </div>
   <div class="description-box">
     <p>I remember...</p>
@@ -132,7 +133,91 @@ const mem12 = `<div class="image-card2">
       <p>When we went to the zoo lights with my family during christmas break. That was super fun and oh so cute. I liked walking around and looking at the lights with you and making fun of the silly looking animals. I even liked holding the umbrella for you. Isn't it so fun that you are just like a part of the gang now? You're such a veteran girlfriend and its a good look on you and makes me feel really secure. I really like being with my family and with you, it just feels so natural to have you there with me, and my family really likes you. I really appreciate how you want to hang out with them, it is a really nice quality you have and I love you lots and so do they. </p>
     </div>`
 
-const memories = [mem1, mem2, mem3, mem4, mem5, mem6, mem7, mem8, mem9, mem10, mem11, mem12];
+const mem13 = `
+  <div class="image-container">
+    <img src="images2/olive.jpeg" alt="Description of image">
+    <p class="image-description">I love love love being so fat with you. (But we're actually skinny and super sexy and might blow away in the wind don't tell anyone shhh)</p>
+  </div>
+  <div class="description-box">
+    <p>I remember...</p>
+    <p>When we spontaneously took the train to my house and saw burt and said hi to my family and you even liked the salmon my mom made! That was super fun doing something so randomly with you it was an awesome start to finals week. Then we just had my car for like a week and we went to so many places for dinner. We went to applebees hella late because I was studying (all your idea and it was a good idea), we went to applebees and split a pasta so we could save up for chicago! Then we also dressed up a bit and went to the place in seattle, but the streets were too packed! I was stressed beceause I wanted to take you out to a nice date and it wasn't working, but you were so supportive and nice so we went to bellevue and it was great! I have so much fun going out with you and doing stuff:)</p>
+  </div>`
+
+const mem14 = `<div class="image-card2">
+      <div class="image-wrapper2">
+          <img src="images2/date1.jpeg" alt="Image 1">
+          <img src="images2/date2.jpeg" alt="Image 2">
+      </div>
+      <p class="image-description">You treat me so nice and plan cute things for us and I really really really like it. I'm trying to get better at that, but I still hope you know I love you so so much!</p>
+    </div>
+    <div class="description-box">
+      <p>I remember...</p>
+      <p>We went to that fancy coffee shop in the bottom of the really cool hotel to sit and do homework before finals week. That was so much fun. I liked dressing up a little fancier so we could be sexy mysterious indie couple doing homework together. That was super super fun. Then we went and got bagels and wandered around a little. Also while we were there, I went to explore the bathroom and when I got back you asked me how it all worked to get the card and scan it. I like that. I like when you ask me for help and I get to help you so you don't have to worry about anything. But lets keep going to new coffee shops!</p>
+    </div>
+`
+
+const mem15 = `
+  <div class="image-container">
+    <img src="images2/nose.jpg" alt="Description of image">
+    <p class="image-description">Do you think she nose that I love her?</p>
+  </div>
+  <div class="description-box">
+    <p>I remember...</p>
+    <p>You took me on such a really cute suprise date and we went to the mariner's game!!! That was so much fun. I hadn't been to watch baseball in forever because usually it is so boring but with you it was awesome I genuinely really enjoyed it for like the first time ever haha. It was such a nice day-turned-night and it was so sweet that you planned that for us. We bought garlic fries and squeezed each other's legs to tickle them and generally made everyone around us annoyed probably but that's ok! We're the only ones that matter! That was pretty fun we should definitely go to more. I want to take you to a soccer game!</p>
+  </div>`
+
+const mem16 = `
+  <div class="image-container">
+    <img src="images2/thrift.jpg" alt="Description of image">
+    <p class="image-description">chomp chomp chomp just like paya. He gets the chomping from both of us for sure.</p>
+  </div>
+  <div class="description-box">
+    <p>I remember...</p>
+    <p>When we were driving back from Glass Animals we stopped at the big red barn and walked around all the old stuff and you even got a coffee (I think that you didn't love)! That was such a fun weekend! We found some hidden old mickeys and looked at some really ugly cups and some cool cups. I liked taking that little pit stop with you :)</p>
+  </div>`
+
+const mem17 = `
+  <div class="image-container">
+    <img src="images2/poopy.jpg" alt="Description of image">
+    <p class="image-description">I'm glad you finally got your cat, and I'm happy that he loves us both equally even though he likes me more huh (jk he loves his mommy)</p>
+  </div>
+  <div class="description-box">
+    <p>I remember...</p>
+    <p>You were thinking about getting a kitten nonstop for so many weeks and I remmeber when you facetimed me when you were meeting poopy. Your eyes were so lit up and you were so happy and overjoyed you were so adorable I'm so glad I got to see you like that I love seeing you so happy. Seeing you with the kitten just adds to the cuteness scale so much! But it was really sweet that you facetimed so that I could meet him before you took him home (like two weeks early!). That was pretty fun. </p>
+  </div>`
+
+
+const mem18 = `
+  <div class="image-container">
+    <img src="images2/finns.jpg" alt="Description of image">
+    <p class="image-description">You're just so real I get you and you get me I love it</p>
+  </div>
+  <div class="description-box">
+    <p>I remember...</p>
+    <p>When me, you, brianna, leland, and merida hung out on st. partrick's day freshman year and we went to finns at night haha. It was pretty fun. Leland and brianna were being wack but we were having a great time sitting up top, people watching, making fun of brianna and leland, and playing clash of clans! That was before we were dating but it was just another instance that showed me that me it was always meant to end with us together.</p>
+  </div>`
+
+const mem19 = `
+  <div class="image-container">
+    <img src="images2/lounge.jpg" alt="Description of image">
+    <p class="image-description">I love you so much sarah. Thank you for the last two (plus) years</p>
+  </div>
+  <div class="description-box">
+    <p>I remember...</p>
+    <p>When we hung out like every night the first week of spring quarter and I just knew something had to be done haha. I felt like I was already too far gone I needed you to be mine and I never wanted to hurt you again. Thank you for not giving up on me and liking me freshman year, I didn't deserve you. I was so dumb for so long but I am so happy that you let me make you mine. Thank you for seeing the good in me. I know that you have made me a better person, and I want to spoil you every chance I get.</p>
+  </div>`
+
+const mem20 = `
+  <div class="image-container">
+    <img src="images2/food.jpg" alt="Description of image">
+    <p class="image-description">I like that your mom loves me I'm glad she approves</p>
+  </div>
+  <div class="description-box">
+    <p>I remember...</p>
+    <p>When we just were together all the time once we started dating and it was just party party party. This time, we hung out after you hung out with your mom. She even bought me food and that was so nice of her and you! So sweet, you have always taken such good care of me and talked me up to all of your family and always made them have a good picture of me I really appreciate it</p>
+  </div>`
+
+const memories = [mem1, mem2, mem3, mem4, mem5, mem6, mem7, mem8, mem9, mem10, mem11, mem12, mem13, mem14, mem15, mem16, mem17, mem18, mem19, mem20];
 
 const initialButton = `<a class="btn btn-light" id ="navYearTwo" role="button">I love you!</a>`
 const buttons = [
